@@ -6,7 +6,7 @@ module.exports = function (uploadFile, multer, multerS3, aws, path) {
         accessKeyId: config.key.accessKeyId,
         secretAccessKey: config.key.secretAccessKey,
         Bucket: config.key.Bucket,
-        region: "ap-south-1"
+        region: "enter-your-aws-region"
     });
 
     const uploadsBusinessGallery = multer({
